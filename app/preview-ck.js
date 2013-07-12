@@ -1,0 +1,1 @@
+define(["namespace","work","events"],function(e,t,n){var r=e.module();console.log(workcollection);return r});

@@ -1,0 +1,30 @@
+<header style="background-image: url(http://localhost:8000/assets/images/work/<%= id %>/header.jpg);"></header>
+<section>
+<% _.each(samples, function(img){ %>
+	<img src="http://localhost:8000/assets/images/work/<%= id %>/<%= img.file %>" alt="<%= id %>" width="<%= img.width %>" height="<%= img.height %>">
+<% }); %>
+</section>
+<aside id="sample-content">
+	<div>
+		<h2><%= title %></h2>
+		<p>Vestibulum id ligula porta felis euismod semper. Donec ullamcorper nulla non metus auctor fringilla. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Curabitur blandit tempus porttitor. Donec id elit non mi porta gravida at eget metus.</p>
+		<p><a href="<%= site_url %>" target="_blank">Link to Website</a></p>
+	</div>
+</aside>
+	
+<div id="sample-nav-wrap">
+	<div class="sample-nav left">
+		<a href="work/<%= nav.prev %>">
+		<div>
+			<span></span>
+		</div>
+		</a>
+	</div>
+	<div class="sample-nav right">
+		<a href="work/<%= nav.next %>">
+		<div>
+			<span></span>
+		</div>
+		</a>
+	</div>
+</div>

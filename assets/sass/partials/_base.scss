@@ -1,0 +1,18 @@
+@import 'susy';
+
+//this is the default number of columns
+$total-columns 	: 5; 
+ 
+//width of each column
+$column-width 	: 4em; 
+ 
+//space between columns
+$gutter-width 	: 1em; 
+ 
+//space on the right and left of the grid
+// $grid-padding 	: $gutter-width;
+$grid-padding: 0;
+//alternative layout breakpoints
+$tablet: 30em 8;
+$computer: 56em 12;
+

@@ -1,0 +1,47 @@
+@mixin regular(){
+	font-family: "anonymous-pro";
+	font-weight: normal;
+}
+
+@mixin semi(){
+	font-family: "jubilat";
+	font-weight: 500;
+}
+
+@mixin bold(){
+	font-family: "jubilat";
+	font-weight: 700;
+}
+
+@mixin italic-regular(){
+	font-family: "jubilat";
+	font-weight: normal;
+	font-style: italic;
+}
+
+@mixin italic-semi(){
+	font-family: "jubilat";
+	font-weight: 500;
+	font-style: italic;
+}
+
+@mixin italic-bold(){
+	font-family: "jubilat";
+	font-weight: 700;
+	font-style: italic;
+}
+
+@mixin social(){
+	font-family: "mwf-socialmedia";
+}
+
+@font-face {
+  font-family: "mwf-socialmedia";
+  src:url("../fonts/mwf-socialmedia.eot");
+  src:url("../fonts/mwf-socialmedia.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/mwf-socialmedia.ttf") format("truetype"),
+    url("../fonts/mwf-socialmedia.svg#mwf-socialmedia") format("svg"),
+    url("../fonts/mwf-socialmedia.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
