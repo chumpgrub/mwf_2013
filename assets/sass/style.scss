@@ -110,13 +110,13 @@ html,body {
 
 	.hgroup {
 		position: relative;
-		padding: 2em 2em 0 0;
+		padding: 2em 2em 0 1em;
 		overflow: hidden;
 	}
 
 	h1 {
 		@include semi();
-		@include adjust-font-size-to(84px,3);
+		@include adjust-font-size-to(94px,3);
 		margin: 0;
 		position: relative;
 		// padding-left: 16px;
@@ -162,7 +162,7 @@ html,body {
 	}
 	h2 {
 		@include regular();
-		@include adjust-font-size-to(22px,1);
+		@include adjust-font-size-to(28px,1);
 
 		position: relative;
 		height: 2em;
@@ -171,21 +171,21 @@ html,body {
 		padding-left: 3px;
 		padding-top: 6px;
 		color: $gray;
-		border-top: 2px solid #222;
-		border-right: 2px solid #222;
+		// border-top: 2px solid #222;
+		// border-right: 2px solid #222;
 
-		&:before {
-			content: '';
-			position: absolute;
-			top: 3px;
-			right: -8px;
-			width: 9px;
-			height: 9px;
-			margin-top: -1.25%;
-			border-radius: 50%;
-			border: 2px solid #222;
-			background-color: #8db5ce;
-		}
+		// &:before {
+		// 	content: '';
+		// 	position: absolute;
+		// 	top: 3px;
+		// 	right: -8px;
+		// 	width: 9px;
+		// 	height: 9px;
+		// 	margin-top: -1.25%;
+		// 	border-radius: 50%;
+		// 	border: 2px solid #222;
+		// 	background-color: #8db5ce;
+		// }
 	}
 }
 
@@ -312,12 +312,17 @@ section {
 .gallery {
 	background-color: #fff;
 	overflow-x: hidden;
+	padding-top: 4em;
 
 	// border-top: 4px solid $steel;
 	// border-bottom: 4px solid $steel;
 	
-	.thumb-info {
+	.info-wrap {
 		@include span-columns(5, 12);
+	}
+
+	.thumb-info {
+		
 		position: relative;
 		box-sizing: border-box;
 		padding: 0 0 0 2em;
@@ -346,6 +351,7 @@ section {
 
 		.title {
 			font-size: 1.5em;
+			padding-top: 1em;
 		}
 		p {
 			@include adjust-font-size-to(14px);
@@ -493,6 +499,7 @@ section {
 				@include adjust-font-size-to(56px);
 				margin: 0;
 				padding: 0 0 0.3em 0.4em;
+				line-height: 40px;
 				border-left: 2px solid #222;
 				position: relative;
 
