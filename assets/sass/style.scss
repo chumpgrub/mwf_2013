@@ -313,6 +313,8 @@ section {
 	background-color: #fff;
 	overflow-x: hidden;
 	padding-top: 4em;
+	padding-bottom: 0;
+	margin-bottom: 0;
 
 	// border-top: 4px solid $steel;
 	// border-bottom: 4px solid $steel;
@@ -322,12 +324,11 @@ section {
 	}
 
 	.thumb-info {
-		
 		position: relative;
 		box-sizing: border-box;
 		padding: 0 0 0 2em;
 		background-color: #fff;
-
+		height: 400px;
 
 		> div {
 			padding-left: 2em;
@@ -490,7 +491,7 @@ section {
 	// WORK SECTION
 	
 	.gallery {
-		padding-bottom: 1em;
+		// padding-bottom: 1em;
 		
 		header {
 			margin-left: 2em;
@@ -584,7 +585,7 @@ section {
 			@include semi();
 			@include adjust-font-size-to(56px);
 			margin: 0;
-			padding: 0 0 0.3em 0.4em;
+			padding: 0 0 0.5em 0.4em;
 			border-left: 2px solid #222;
 			position: relative;
 
