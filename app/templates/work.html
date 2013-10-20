@@ -1,7 +1,7 @@
-<header style="background-image: url(http://localhost:8000/assets/images/work/<%= id %>/header.jpg);"></header>
+<header style="background-image: url(/assets/images/work/<%= id %>/header.jpg);"></header>
 <section>
 <% _.each(samples, function(img){ %>
-	<img src="http://localhost:8000/assets/images/work/<%= id %>/<%= img.file %>" alt="<%= id %>" width="<%= img.width %>" height="<%= img.height %>">
+	<img src="/assets/images/work/<%= id %>/<%= img.file %>" alt="<%= id %>" width="<%= img.width %>" height="<%= img.height %>">
 <% }); %>
 </section>
 <aside id="sample-content">

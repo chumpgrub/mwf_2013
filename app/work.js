@@ -63,7 +63,7 @@ define([
 
 		className: 'work-wrapper clearfix',
 
-		template: 'http://localhost:8000/app/templates/work.html',
+		template: '/app/templates/work.html',
 
 		render: function(done){
 			var view = this;

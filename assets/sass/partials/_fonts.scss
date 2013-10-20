@@ -4,30 +4,30 @@
 }
 
 @mixin semi(){
-	font-family: "jubilat";
-	font-weight: 500;
+	font-family: "museo-slab";
+	font-weight: 300;
 }
 
 @mixin bold(){
-	font-family: "jubilat";
-	font-weight: 700;
+	font-family: "museo-slab";
+	font-weight: 500;
 }
 
 @mixin italic-regular(){
-	font-family: "jubilat";
+	font-family: "museo-slab";
 	font-weight: normal;
 	font-style: italic;
 }
 
 @mixin italic-semi(){
-	font-family: "jubilat";
-	font-weight: 500;
+	font-family: "museo-slab";
+	font-weight: 300;
 	font-style: italic;
 }
 
 @mixin italic-bold(){
-	font-family: "jubilat";
-	font-weight: 700;
+	font-family: "museo-slab";
+	font-weight: 500;
 	font-style: italic;
 }
 
